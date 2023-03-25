@@ -47,11 +47,12 @@ h6 {
 }
 
 .register {
-  text-align: center;
-
-  color: black;
-  font-family: 'montserrat', sans-serif;
-
+  background-image: linear-gradient(
+    to right,
+    #1d2b64 0%,
+    #f8cdda 51%,
+    #1d2b64 100%
+  );
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -62,7 +63,9 @@ h6 {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
-  color: black;
+  border: 1px solid transparent;
+  text-align: center;
+  justify-content: center;
 }
 
 .register:hover {
